@@ -1,0 +1,63 @@
+/*Cambiar estilo de fuente de body*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*Centrar main*/
+main{
+    max-width: 55%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Header y main*/
+header{
+    background-color: #ddd;
+    /*podríamos usar también rgba para opacidad, quedaría así:
+    rgba (89, 10, 200, 0.3)
+    si no necesitamos transparencia, no se usa rgba*/
+    text-align: center;
+    line-height: 2;
+}
+h1, h2{
+    background-color: #bfbfbf ;
+    text-transform: uppercase;
+    font-family: Times, serif;
+}
+h1{
+    color: #1f497d;
+    word-spacing: 0.5em;
+    letter-spacing: 0.5em;
+}
+h2{
+    color: #632423;
+    margin-top: 30px;
+    font-size: 18px;
+    word-spacing: 1em;
+    letter-spacing: 0.4em;
+}
+/*necesitamos identificar los <span> porque es muy genérico*, para eso necesitamos class*/
+.item-detail{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subItem-detail{
+    text-transform: uppercase;
+}
+
+footer{
+    color: #ffffff;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    background-color: #1F497D;
+    margin: 30px 0px; /*de esta manera le decís que tenga, 30 pixeles arriba y abajo, y 0 a los costados.*/
+    
+}
+
+img.pequeña{
+    width: 15px; height: 15px;
+  }
